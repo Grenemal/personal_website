@@ -268,10 +268,6 @@ const WorkHistory = () => {
         { text: '主导飞秒成像设备在活细胞/干细胞/类器官等活细胞应用场景的开发', icon: <FaServer /> },
         { text: '负责AE团队管理，提升团队开发效率与协作质量', icon: <FaBriefcase /> },
         { text: '负责公司对外交流、技术讲解及合作项目对接', icon: <FaCode /> },
-        { text: '负责外部需求的技术可行性评估', icon: <FaAward /> },
-        { text: '负责公司产品的SOP文档撰写', icon: <FaFileAlt /> },
-        { text: '参与公司产品的市场调研与分析', icon: <FaRobot /> },
-        { text: '参与公司产品的技术路线规划', icon: <FaServer /> },
       ]
     },
     {
@@ -279,11 +275,7 @@ const WorkHistory = () => {
       position: '总监/副总监',
       period: '2024.02 – 2025.02',
       achievements: [
-        { text: '管理创新中心和科研耗材中心的项目研发，领导22人团队，推动科研成果转化', icon: <FaCode /> },
-        { text: '负责体外诊断领域的产品布局，推动分子诊断和有形成分分析产品的创新', icon: <FaServer /> },
-        { text: '撰写国家及省部级科研项目指南，管理项目书撰写和合作项目', icon: <FaRobot /> },
-        { text: '领导开发纳米粒子自动化生成仪等关键设备', icon: <FaCode /> },
-        { text: '负责项目组的融资路演，推动商业化进程', icon: <FaAward /> },
+        { text: '管理创新中心和科研耗材中心的项目研发，领导22人团队，推动科研成果转化,负责体外诊断领域的产品布局，推动分子诊断和有形成分分析产品的创新', icon: <FaCode /> },
       ]
     },
     {
@@ -291,10 +283,7 @@ const WorkHistory = () => {
       position: '中心主任/副主任',
       period: '2022.07 – 2024.02',
       achievements: [
-        { text: '负责中心的日常工作及安全维护，立项申请，专利申请等', icon: <FaCode /> },
-        { text: '负责产品在体外诊断领域的布局，医疗器械证、药物临床前测试等', icon: <FaServer /> },
-        { text: '推进项目组的项目进度，标准化研发文件和流程', icon: <FaRobot /> },
-        { text: '负责市场推广，产品说明书、手册、宣传手册的设计，产品试用装、定价及包装的制定，销售代理商的联系，售后服务及技术支持', icon: <FaCode /> },
+        { text: '负责中心的日常工作及安全维护，立项申请，专利申请等,负责产品在体外诊断领域的布局，医疗器械证、药物临床前测试等', icon: <FaCode /> },
       ]
     },
     {
@@ -302,9 +291,7 @@ const WorkHistory = () => {
       position: '项目经理/研发工程师',
       period: '2021.12 – 2022.02',
       achievements: [
-        { text: '收集整理归纳细胞荧光成像领域所使用的AIE分子，进行产业化潜力评价', icon: <FaCode /> },
-        { text: '负责AIE材料在生物成像，特别是细胞器成像方向的产业化', icon: <FaServer /> },
-        { text: '制定详细的验证流程', icon: <FaRobot /> },
+        { text: '收集整理归纳细胞荧光成像领域所使用的AIE分子，进行产业化潜力评价,负责AIE材料在生物成像，特别是细胞器成像方向的产业化', icon: <FaCode /> },
       ]
     },
     {
