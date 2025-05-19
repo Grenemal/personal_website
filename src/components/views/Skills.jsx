@@ -193,12 +193,10 @@ const Skills = () => {
       category: '科研转化技能',
       icon: <FaReact />,
       skills: [
-        { name: '文献写作', level: 90 },
         { name: '科研项目管理', level: 80 },
         { name: '科研数据分析', level: 90 },
         { name: '科研数据可视化', level: 90 },
         { name: '科研数据挖掘', level: 80 },
-        { name: '专利写作申请', level: 90 }, 
         { name: '项目申请', level: 90 },
         { name: '项目管理', level: 80 },
         { name: '项目评估', level: 80 },
@@ -210,9 +208,7 @@ const Skills = () => {
       icon: <FaCode />,
       skills: [
         { name: '有机合成', level: 95 },
-        { name: '化合物表征', level: 90 },
         { name: '化学反应机理', level: 75 },
-        { name: '化学数据分析', level: 90 },
         { name: '化学文献检索', level: 90 },
         { name: '化学实验设计', level: 95 },
         { name: '化学数据可视化', level: 90 },
@@ -228,9 +224,7 @@ const Skills = () => {
         { name: '荧光成像技术', level: 90 },
         { name: '荧光探针的设计', level: 95 },
         { name: '特异性标记', level: 90 },
-        { name: '共聚焦显微成像技术', level: 95 },
         { name: '超分辨率荧光成像技术', level: 90 },
-        { name: '多光子显微成像技术', level: 90 },
         { name: '活细胞荧光成像技术', level: 95 },
         { name: '图像处理与分析', level: 90 },
         { name: '小动物活体成像', level: 85 },
@@ -241,16 +235,28 @@ const Skills = () => {
       category: '产品开发专业技能',
       icon: <FaDatabase />,
       skills: [
-        { name: '转化流程', level: 90 },
         { name: '市场分析', level: 65 },
         { name: '产品设计', level: 80 },
         { name: '产品开发', level: 90 },
         { name: '产品注册', level: 80 },
         { name: '产品上市', level: 75 },
         { name: '产品推广', level: 80 },
-        { name: '产品销售', level: 60 },
         { name: '产品售后服务', level: 70 },
         { name: '产品质量管理', level: 80 },
+      ]
+    },
+    {
+      category: '信息收集与整理',
+      icon: <FaDatabase />,
+      skills: [
+        { name: '搜索引擎运用', level: 85 },
+        { name: '数据筛选与验证', level: 75 },
+        { name: '文献研究与综述', level: 80 },
+        { name: '信息分类与归档', level: 90 },
+        { name: '知识图谱构建', level: 70 },
+        { name: '笔记与摘要技巧', level: 80 },
+        { name: '数据可视化', level: 65 },
+        { name: '信息整合与报告撰写', level: 75 },
       ]
     },
     {
@@ -263,8 +269,6 @@ const Skills = () => {
         { name: '项目管理', level: 80 },
         { name: '时间管理', level: 90 },
         { name: '数据分析', level: 90 },
-        { name: '文献检索', level: 90 },
-        { name: '文献阅读', level: 90 },
         { name: '文献写作', level: 90 },
         { name: '学习能力', level: 90 },
       ]
