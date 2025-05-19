@@ -216,7 +216,7 @@ const Contact = () => {
                   }}
                 >
                   <span style={styles.icon}><FaPhone /></span>
-                  <span style={styles.contactText}>手机：15234883064</span>
+                  <span style={styles.contactText}>手机：17665333475</span>
                 </motion.div>
                 
                 <motion.div 
@@ -229,7 +229,7 @@ const Contact = () => {
                   }}
                 >
                   <span style={styles.icon}><FaEnvelope /></span>
-                  <span style={styles.contactText}>邮箱：renyh2001@163.com</span>
+                  <span style={styles.contactText}>邮箱：w.j.gong1989@gmail.com</span>
                 </motion.div>
 
                 <motion.div 
@@ -242,7 +242,7 @@ const Contact = () => {
                   }}
                 >
                   <span style={styles.icon}><FaWeixin /></span>
-                  <span style={styles.contactText}>微信：hismeyy</span>
+                  <span style={styles.contactText}>微信：WjGong1989</span>
                 </motion.div>
 
                 <motion.div 
@@ -255,7 +255,7 @@ const Contact = () => {
                   }}
                 >
                   <span style={styles.icon}><FaQq /></span>
-                  <span style={styles.contactText}>QQ：1942886312</span>
+                  <span style={styles.contactText}>QQ：1551931699</span>
                 </motion.div>
                 
                 {/* <motion.div 
@@ -268,7 +268,7 @@ const Contact = () => {
                   }}
                 >
                   <span style={styles.icon}><FaGithub /></span>
-                  <span style={styles.contactText}>GitHub：github.com/任宇恒</span>
+                  <span style={styles.contactText}>GitHub：github.com/Grenemal</span>
                 </motion.div>
                 
                 <motion.div 

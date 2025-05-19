@@ -92,19 +92,19 @@ const HomePage = ({ onLoadComplete }) => {
 
   const messages = [
     { text: "你好呀！", position: { top: '25%', left: '35%' }, delay: 0 },
-    { text: "我叫任宇恒，英文名Leo", position: { top: '72%', left: '58%' }, delay: 0.5 },
-    { text: "后端工程师一枚", position: { top: '35%', left: '70%' }, delay: 1 },
-    { text: "写写代码，读读书", position: { top: '65%', left: '24%' }, delay: 1.5 },
-    { text: "计算机爱好者", position: { top: '30%', left: '60%' }, delay: 2 },
+    { text: "我叫老十一，英文名ElOneven", position: { top: '72%', left: '58%' }, delay: 0.5 },
+    { text: "没有什么成果的科学家", position: { top: '35%', left: '70%' }, delay: 1 },
+    { text: "读读文献，读读书，做做科研", position: { top: '65%', left: '24%' }, delay: 1.5 },
+    { text: "荧光爱好者", position: { top: '30%', left: '60%' }, delay: 2 },
     { text: "自驱型学习者", position: { top: '20%', left: '66%' }, delay: 2.5 },
-    { text: "斜杠青年", position: { top: '78%', left: '32%' }, delay: 3 },
+    { text: "抬杠青年", position: { top: '78%', left: '32%' }, delay: 3 },
     { text: "E人 | 交流", position: { top: '45%', left: '30%' }, delay: 3.5 },
-    { text: "运动运动，唱唱歌", position: { top: '56%', left: '73%' }, delay: 4 },
+    { text: "一点都不想动，唱唱歌", position: { top: '56%', left: '73%' }, delay: 4 },
     { text: "软件追求：优美、简约、实用", position: { top: '15%', left: '47%' }, delay: 4.5 },
     { text: "高效 | 独立思考", position: { top: '60%', left: '35%' }, delay: 5 },
     { text: "追梦 | 自由", position: { top: '45%', left: '60%' }, delay: 5.5 },
     { text: "撸起袖子加油干", position: { top: '33%', left: '25%' }, delay: 6 },
-    { text: "Minecraft爱好者", position: { top: '68%', left: '70%' }, delay: 6.5 },
+    { text: "烧烤爱好者", position: { top: '68%', left: '70%' }, delay: 6.5 },
     { text: "科学管理", position: { top: '50%', left: '20%' }, delay: 7 },
     { text: "六边形战士", position: { top: '12%', left: '23%' }, delay: 7.5 }
   ];
@@ -186,7 +186,7 @@ const HomePage = ({ onLoadComplete }) => {
       ))}
       <Notification message="欢迎来到我的个人主页！" />
       <button
-        onClick={() => window.open('https://aboutme.maxcosmos.top', '_blank')}
+        onClick={() => window.open('https://cv.0420301.xyz', '_blank')}
         style={{
           position: 'fixed',
           top: '100px',

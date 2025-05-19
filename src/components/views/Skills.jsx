@@ -190,75 +190,83 @@ const Skills = () => {
 
   const skillsData = [
     {
-      category: '编程语言',
-      icon: <FaCode />,
-      skills: [
-        { name: 'Java', level: 95 },
-        { name: 'JavaScript/TypeScript', level: 90 },
-        { name: 'HTML/CSS', level: 90 },
-        { name: 'Python', level: 80 },
-        { name: 'C/C++', level: 40 },
-        { name: 'Rust', level: 30 },
-      ]
-    },
-    {
-      category: '后端开发',
-      icon: <FaServer />,
-      skills: [
-        { name: 'SSM', level: 90 },
-        { name: 'Spring Cloud', level: 85 },
-        { name: 'Nacos/Feign/Gateway', level: 80 },
-        { name: 'Sentinel', level: 80 },
-        { name: 'Seata', level: 80 },
-        { name: 'XXL-JOB/EasyExcel等', level: 75 },
-      ]
-    },
-    {
-      category: '中间件与基础设施',
-      icon: <FaDatabase />,
-      skills: [
-        { name: 'MySQL/Oracle', level: 90 },
-        { name: 'PostgreSQL', level: 50 },
-        { name: 'MongoDB', level: 40 },
-        { name: 'RabbitMQ', level: 60 },
-        { name: 'Kafka/RocketMQ', level: 40 },
-        { name: 'Elasticsearch', level: 30 },
-      ]
-    },
-    {
-      category: '前端开发',
+      category: '科研转化技能',
       icon: <FaReact />,
       skills: [
-        { name: 'Vue.js', level: 90 },
-        { name: 'React.js', level: 90 },
-        { name: 'uni-app', level: 80 },
-        { name: 'Flutter', level: 60 },
-        { name: 'React Native', level: 60 },
-        { name: 'NodeJS', level: 70 },
+        { name: '文献写作', level: 90 },
+        { name: '科研项目管理', level: 80 },
+        { name: '科研数据分析', level: 90 },
+        { name: '科研数据可视化', level: 90 },
+        { name: '科研数据挖掘', level: 80 },
+        { name: '专利写作申请', level: 90 }, 
+        { name: '项目申请', level: 90 },
+        { name: '项目管理', level: 80 },
+        { name: '项目评估', level: 80 },
+        { name: '项目实施', level: 80 },
       ]
     },
     {
-      category: 'AI与智能应用',
-      icon: <FaRobot />,
+      category: '化学专业技能',
+      icon: <FaCode />,
       skills: [
-        { name: 'Dify', level: 90 },
-        { name: 'Coze', level: 90 },
-        { name: 'Stable Diffusion', level: 80 },
-        { name: 'MCP服务', level: 70 },
-        { name: 'SpringAI', level: 90 },
-        { name: 'Langchain4j', level: 90 },
+        { name: '有机合成', level: 95 },
+        { name: '化合物表征', level: 90 },
+        { name: '化学反应机理', level: 75 },
+        { name: '化学数据分析', level: 90 },
+        { name: '化学文献检索', level: 90 },
+        { name: '化学实验设计', level: 95 },
+        { name: '化学数据可视化', level: 90 },
+        { name: '化学实验室安全', level: 90 },
+        { name: '化学实验室管理', level: 85 },
+        { name: '化学实验室设备维护', level: 80 },
       ]
     },
     {
-      category: '开发工具',
-      icon: <FaTools />,
+      category: '成像专业技能',
+      icon: <FaServer />,
       skills: [
-        { name: 'Linux', level: 90 },
-        { name: 'Docker', level: 90 },
-        { name: 'Postman/Apifox', level: 95 },
-        { name: 'Maven', level: 95 },
-        { name: 'Nginx', level: 85 },
-        { name: 'Jenkins', level: 60 },
+        { name: '荧光成像技术', level: 90 },
+        { name: '荧光探针的设计', level: 95 },
+        { name: '特异性标记', level: 90 },
+        { name: '共聚焦显微成像技术', level: 95 },
+        { name: '超分辨率荧光成像技术', level: 90 },
+        { name: '多光子显微成像技术', level: 90 },
+        { name: '活细胞荧光成像技术', level: 95 },
+        { name: '图像处理与分析', level: 90 },
+        { name: '小动物活体成像', level: 85 },
+        { name: '成像数据分析', level: 90 },
+      ]
+    },
+    {
+      category: '产品开发专业技能',
+      icon: <FaDatabase />,
+      skills: [
+        { name: '转化流程', level: 90 },
+        { name: '市场分析', level: 65 },
+        { name: '产品设计', level: 80 },
+        { name: '产品开发', level: 90 },
+        { name: '产品注册', level: 80 },
+        { name: '产品上市', level: 75 },
+        { name: '产品推广', level: 80 },
+        { name: '产品销售', level: 60 },
+        { name: '产品售后服务', level: 70 },
+        { name: '产品质量管理', level: 80 },
+      ]
+    },
+    {
+      category: '综合专业技能',
+      icon: <FaReact />,
+      skills: [
+        { name: '适应性', level: 90 },
+        { name: '团队合作', level: 90 },
+        { name: '沟通能力', level: 90 },
+        { name: '项目管理', level: 80 },
+        { name: '时间管理', level: 90 },
+        { name: '数据分析', level: 90 },
+        { name: '文献检索', level: 90 },
+        { name: '文献阅读', level: 90 },
+        { name: '文献写作', level: 90 },
+        { name: '学习能力', level: 90 },
       ]
     },
   ];
@@ -286,7 +294,7 @@ const Skills = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.7, duration: 0.5, type: 'spring' }}
           >
-            💻 我的技术栈
+            💻 我的技能树
           </motion.h1>
           <motion.p
             style={styles.subtitle}
@@ -294,7 +302,7 @@ const Skills = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.9, duration: 0.5 }}
           >
-            全栈开发经验，持续学习新技术
+            全流程开发，持续学习新技术
           </motion.p>
         </motion.div>
 

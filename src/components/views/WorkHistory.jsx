@@ -261,26 +261,66 @@ const WorkHistory = () => {
   // 工作经历数据 - 精简描述文本
   const workExperience = [
     {
-      company: '陕西全境科技有限公司',
-      position: 'Java开发工程师 / 后端管理骨干',
-      period: '2025.02 – 至今',
+      company: '飞秒激光研究中心（广州）有限公司',
+      position: '高级生物医学科学家',
+      period: '2025.03 – 至今',
       achievements: [
-        { text: '负责后端团队管理，提升团队开发效率与协作质量', icon: <FaBriefcase /> },
-        { text: '主导全国旅游交易平台的架构设计与核心功能开发', icon: <FaServer /> },
-        { text: '设计统一接口标准，打通供应链上下游业务流程', icon: <FaCode /> },
-        { text: '2个月内完成5大品类核心业务系统建设，实现业务闭环', icon: <FaAward /> },
+        { text: '主导飞秒成像设备在活细胞/干细胞/类器官等活细胞应用场景的开发', icon: <FaServer /> },
+        { text: '负责AE团队管理，提升团队开发效率与协作质量', icon: <FaBriefcase /> },
+        { text: '负责公司对外交流、技术讲解及合作项目对接', icon: <FaCode /> },
+        { text: '负责外部需求的技术可行性评估', icon: <FaAward /> },
+        { text: '负责公司产品的SOP文档撰写', icon: <FaFileAlt /> },
+        { text: '参与公司产品的市场调研与分析', icon: <FaRobot /> },
+        { text: '参与公司产品的技术路线规划', icon: <FaServer /> },
       ]
     },
     {
-      company: '陕西天诚软件有限公司',
-      position: 'Java开发工程师',
-      period: '2022.12 – 2025.02',
+      company: '聚集诱导发光高等研究院',
+      position: '总监/副总监',
+      period: '2024.02 – 2025.02',
       achievements: [
-        { text: '参与企业级系统开发，使用Java+SpringBoot构建后端服务', icon: <FaCode /> },
-        { text: '主导ERP系统核心模块开发，3个月内完成上线', icon: <FaServer /> },
-        { text: '参与AI心理助手项目，积累AI应用落地经验', icon: <FaRobot /> },
-        { text: '对接OCR服务，替代第三方方案节省成本', icon: <FaCode /> },
-        { text: '荣获公司"最佳新人奖"', icon: <FaAward /> },
+        { text: '管理创新中心和科研耗材中心的项目研发，领导22人团队，推动科研成果转化', icon: <FaCode /> },
+        { text: '负责体外诊断领域的产品布局，推动分子诊断和有形成分分析产品的创新', icon: <FaServer /> },
+        { text: '撰写国家及省部级科研项目指南，管理项目书撰写和合作项目', icon: <FaRobot /> },
+        { text: '领导开发纳米粒子自动化生成仪等关键设备', icon: <FaCode /> },
+        { text: '负责项目组的融资路演，推动商业化进程', icon: <FaAward /> },
+      ]
+    },
+    {
+      company: '聚集诱导发光高等研究院',
+      position: '中心主任/副主任',
+      period: '2022.07 – 2024.02',
+      achievements: [
+        { text: '负责中心的日常工作及安全维护，立项申请，专利申请等', icon: <FaCode /> },
+        { text: '负责产品在体外诊断领域的布局，医疗器械证、药物临床前测试等', icon: <FaServer /> },
+        { text: '推进项目组的项目进度，标准化研发文件和流程', icon: <FaRobot /> },
+        { text: '负责市场推广，产品说明书、手册、宣传手册的设计，产品试用装、定价及包装的制定，销售代理商的联系，售后服务及技术支持', icon: <FaCode /> },
+      ]
+    },
+    {
+      company: '聚集诱导发光高等研究院',
+      position: '项目经理/研发工程师',
+      period: '2021.12 – 2022.02',
+      achievements: [
+        { text: '收集整理归纳细胞荧光成像领域所使用的AIE分子，进行产业化潜力评价', icon: <FaCode /> },
+        { text: '负责AIE材料在生物成像，特别是细胞器成像方向的产业化', icon: <FaServer /> },
+        { text: '制定详细的验证流程', icon: <FaRobot /> },
+      ]
+    },
+    {
+      company: '南方医科大学深圳医院',
+      position: '博士后',
+      period: '2019.10 – 2021.11',
+      achievements: [
+        { text: '氢分子生物荧光探针的开发及其药代动力学研究', icon: <FaCode /> },
+      ]
+    },
+    {
+      company: '深圳大学物理与光电学院',
+      position: '博士后',
+      period: '2017.07 – 2019.09',
+      achievements: [
+        { text: '活细胞超分辨荧光成像材料的开发', icon: <FaCode /> },
       ]
     },
   ];
